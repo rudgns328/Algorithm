@@ -1,4 +1,4 @@
-package 백준.자바.단어_공부_1157;
+package 백준.자바.문자열.단어_공부_1157;
 
 import java.util.Scanner;
 
