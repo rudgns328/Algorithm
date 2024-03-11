@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="" />
+    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/song-kyunghun/Desktop/프로젝트/Algorithm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -122,6 +125,9 @@
       <workItem from="1709789428292" duration="24168000" />
       <workItem from="1709967780850" duration="785000" />
       <workItem from="1709968571249" duration="1488000" />
+      <workItem from="1709970137206" duration="1133000" />
+      <workItem from="1710081962347" duration="1629000" />
+      <workItem from="1710125289945" duration="758000" />
     </task>
     <servers />
   </component>
