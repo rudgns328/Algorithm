@@ -11,7 +11,7 @@
 * [기술 블로그](https://blogimadetosee.tistory.com/)에 코드에 대한 상세 설명을 기록합니다.
 
 ## 규칙
-* Commit Message : {Keyword}[문제 출처 사이트] 문제 명 - 문제 번호
+* Commit Message : [Keyword]-[문제 출처 사이트] 문제 명 문제 번호
 * 폴더 규칙 : 문제 출처 사이트 > 문제 유형 > 문제 명 - 문제 번호
 * Keyword
   * `Solve` : 풀이에 성공한 새로운 문제 추가
