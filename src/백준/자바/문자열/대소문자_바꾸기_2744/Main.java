@@ -10,15 +10,11 @@ public class Main {
 
         char[] arr = input.toCharArray();
 
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] >= 65 && arr[i] <= 90) {
-                arr[i] += 32;
-            } else if(arr[i] >= 97 && arr[i] <= 122) {
-                arr[i] -= 32;
-            }
+        for (int i = 0; i < input.length(); i++) {
+            if ('a' <= arr[i] && arr[i] <= 'z')
+                arr[i] = (char)('A' + arr[i] - 'a');
+            else arr[i] = (char)('a' + arr[i] - 'A');
         }
-        String output = String.valueOf(arr);
-
-        System.out.println(output);
+        System.out.println(arr);
     }
 }
