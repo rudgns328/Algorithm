@@ -16,6 +16,16 @@
 * Keyword
   * `Solve` : 풀이에 성공한 새로운 문제 추가
   * `Improve` : 더 나은 풀이로 기존 코드 업데이트
+ 
+## AC RATING
+* 2024.03.03
+  * `BRONZE V`
+* 2024.03.10
+  * `BRONZE IV`
+  * `BRONZE III`
+* 2024.03.17
+  * `BRONZE II`
+ 
 
 ## 문제 출처
 * [백준](https://www.acmicpc.net/)
