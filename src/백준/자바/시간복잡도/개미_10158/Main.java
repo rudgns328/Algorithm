@@ -11,10 +11,12 @@ class Main {
         int Q = sc.nextInt();
         int T = sc.nextInt();
 
-        int currentX = (T + P) % (2 * W);
-        int currentY = (T + Q) % (2 * H);
-        if (currentX > W) currentX = 2 * W - currentX;
-        if (currentY > H) currentY = 2 * H - currentY;
+        int currentX = (P + T) % (2 * W);
+        int currentY = (Q + T) % (2 * H);
+        if (currentX > W)
+            currentX = 2 * W - currentX;
+        if (currentY > H)
+            currentY = 2 * H - currentY;
 
         System.out.println(currentX + " " + currentY);
     }
