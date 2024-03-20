@@ -7,7 +7,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
+
         char[][] map = new char[N][M];
+
         for (int i = 0; i < N; i++)
             map[i] = sc.next().toCharArray();
 
