@@ -7,40 +7,26 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
-
         char[][] map = new char[N][M];
-
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++)
             map[i] = sc.next().toCharArray();
-        }
 
-        int existRowCount = 0;
-        for (int i = 0; i < N; i++) {
-            boolean exist = false;
-            for (int j = 0; j < M; j++) {
+        boolean[] rowExist = new boolean[N];
+        boolean[] colExist = new boolean[M];
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < M; j++)
                 if (map[i][j] == 'X') {
-                    exist = true;
-                    break;
+                    rowExist[i] = true;
+                    colExist[j] = true;
                 }
-            }
-            if (exist) existRowCount++;
-        }
 
-        int existColCount = 0;
-        for (int j = 0; j < M; j++) {
-            boolean exist = false;
-            for (int i = 0; i < N; i++) {
-                if (map[i][j] == 'X') {
-                    exist = true;
-                    break;
-                }
-            }
-            if (exist) existColCount++;
-        }
+        int rowNeedCount = N;
+        int colNeedCount = M;
+        for (int i = 0; i < N; i++)
+            if (rowExist[i]) rowNeedCount--;
+        for (int i = 0; i < M; i++)
+            if (colExist[i]) colNeedCount--;
 
-        int needRowCount = N - existRowCount;
-        int needColCount = M - existColCount;
-
-        System.out.println(Math.max(needRowCount, needColCount));
+        System.out.println(Math.max(rowNeedCount, colNeedCount));
     }
 }
