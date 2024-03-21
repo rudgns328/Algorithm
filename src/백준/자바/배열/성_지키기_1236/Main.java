@@ -3,7 +3,7 @@ package 백준.자바.배열.성_지키기_1236;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
