@@ -1,4 +1,4 @@
-package 백준.자바.문자열.다이얼_5622;
+package 백준.자바.구현.다이얼_5622;
 
 import java.util.Scanner;
 
