@@ -1,7 +1,6 @@
 package 백준.자바.배열.수_정렬하기3_10989;
 
 import java.io.*;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -10,16 +9,15 @@ public class Main {
 
         int N = Integer.parseInt(br.readLine());
 
-        int[] arr = new int[N];
-        for (int i = 0; i < N; i++) {
-            arr[i] = Integer.parseInt(br.readLine());
-        }
+        int[] cnt = new int[10001];
+        for (int i = 0; i < N; i++)
+            cnt[Integer.parseInt(br.readLine())]++;
 
-        Arrays.sort(arr);
+        for (int i = 0; i <= 10000; i++)
+            while (cnt[i]-- > 0) {
+                bw.write(i + "\n");
+            }
 
-        for (int i = 0; i < N; i++) {
-            bw.write(arr[i] + "\n");
-        }
         br.close();
         bw.flush();
         bw.close();
