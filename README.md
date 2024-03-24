@@ -25,6 +25,8 @@
   * `BRONZE III`
 * 2024.03.17
   * `BRONZE II`
+* 2024.03.32
+  * `BRONZE I`
  
 
 ## 문제 출처
