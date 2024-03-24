@@ -8,26 +8,26 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int[] arr = new int[3];
-        for (int i = 0; i < 3; i++) {
-            arr[i] = Integer.parseInt(st.nextToken());
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+        int a, b, c;
+        a = Integer.parseInt(st.nextToken());
+        b = Integer.parseInt(st.nextToken());
+        c = Integer.parseInt(st.nextToken());
+
+        if (a != b && b != c && a != c) {
+            int max = Math.max(a, Math.max(b, c));
+            System.out.println(max * 100);
         }
-
-        if (arr[0] == arr[1] && arr[0] == arr[2]) {
-            int ans = 10000 + arr[0] * 1000;
-            System.out.println(ans);
-        } else if (arr[0] == arr[1] || arr[0] == arr[2]) {
-            int ans = 1000 + arr[0] * 100;
-            System.out.println(ans);
-        } else if (arr[1] == arr[2]) {
-            int ans = 1000 + arr[1] * 100;
-            System.out.println(ans);
-        } else if (arr[0] != arr[1] && arr[0] != arr[2] && arr[1] != arr[2]) {
-            int max = Math.max(arr[0], Math.max(arr[1], arr[2]));
-            int ans = max * 100;
-            System.out.println(ans);
+        else if (a == b && a == c) {
+            System.out.println(10000 + a * 1000);
+        }
+        else if(a == b || a == c) {
+            System.out.println(1000 + a * 100);
+        }
+        else {
+            System.out.println(1000 + b * 100);
         }
     }
 }
