@@ -29,7 +29,7 @@
 * 2024.03.22
   * `BRONZE I`
 * 2024.03.28
-  * `SLIVE V`
+  * `SLIVER V`
 
 ## 문제 출처
 * [백준](https://www.acmicpc.net/)
