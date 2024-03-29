@@ -1,4 +1,4 @@
-package 백준.자바.조건문.합_8393;
+package 백준.자바.반복문.합_8393;
 
 import java.util.Scanner;
 
