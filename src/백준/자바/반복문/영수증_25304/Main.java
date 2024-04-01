@@ -7,14 +7,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int X = sc.nextInt();
         int N = sc.nextInt();
-        int total = 0;
+        int sum = 0;
 
         for(int i = 0; i < N; i++){
             int a = sc.nextInt();
             int b = sc.nextInt();
-            total += a * b;
+            sum += a * b;
         }
-        if(total == X){
+        if(sum == X){
             System.out.println("Yes");
         }else{
             System.out.println("No");
