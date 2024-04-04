@@ -1,29 +1,33 @@
 package 백준.자바.문자열.단어_공부_1157;
 
-import java.util.Scanner;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.next().toUpperCase();
+    public static void main(String[] args) throws IOException {
 
-        int[] count = new int[26];
+        int[] arr = new int[26];
+        int c = System.in.read();
 
-        for (int i = 0; i < str.length(); i++) {
-            int num = str.charAt(i) -'A' ;
-            count[num]++;
+        while (c > 64) {
+            if (c < 91) {
+                arr[c - 65]++;
+            } else {
+                arr[c - 97]++;
+            }
+            c = System.in.read();
         }
 
-        int max = 0;
-        char answer = '?';
-        for (int i = 0; i < count.length; i++) {
-            if(max < count[i]){
-                max = count[i];
-                answer = (char)(i+'A');
-            } else if (max == count[i]){
-                answer = '?';
+        int max = -1;
+        int ch = -2;
+
+        for (int i = 0; i < 26; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+                ch = i;
+            } else if (arr[i] == max) {
+                ch = -2;
             }
         }
-        System.out.println(answer);
+        System.out.print((char) (ch+65));
     }
 }
