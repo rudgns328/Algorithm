@@ -1,20 +1,21 @@
 package 백준.자바.문자열.대소문자_바꾸기_2744;
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Main {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
-
-        char[] arr = input.toCharArray();
-
-        for (int i = 0; i < input.length(); i++) {
-            if ('a' <= arr[i] && arr[i] <= 'z')
-                arr[i] = (char)('A' + arr[i] - 'a');
-            else arr[i] = (char)('a' + arr[i] - 'A');
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (Character.isUpperCase(c)) {
+                sb.append(Character.toLowerCase(c));
+            } else {
+                sb.append(Character.toUpperCase(c));
+            }
         }
-        System.out.println(arr);
+        System.out.print(sb);
     }
 }
