@@ -1,4 +1,4 @@
-package 백준.자바.배열.X보다_작은_수;
+package 백준.자바.배열.X보다_작은_수_10871;
 
 import java.util.Scanner;
 
