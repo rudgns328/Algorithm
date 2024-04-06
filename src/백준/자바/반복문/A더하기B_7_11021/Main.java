@@ -1,4 +1,4 @@
-package 백준.자바.반복문.A더하기B빼기7_11021;
+package 백준.자바.반복문.A더하기B_7_11021;
 
 import java.util.Scanner;
 
