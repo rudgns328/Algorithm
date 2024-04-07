@@ -18,6 +18,7 @@
   * `Improve` : 더 나은 풀이로 기존 코드 업데이트
  
 ## AC RATING
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=rudgns0328)](https://solved.ac/rudgns0328)
 * 2024.03.05
   * `BRONZE V`
 * 2024.03.07
