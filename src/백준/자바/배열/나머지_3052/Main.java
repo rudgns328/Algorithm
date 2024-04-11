@@ -1,18 +1,19 @@
 package 백준.자바.배열.나머지_3052;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashSet;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         HashSet<Integer> h = new HashSet<Integer>();
 
         for (int i = 0; i < 10; i++) {
-            h.add(in.nextInt() % 42);
+            h.add(Integer.parseInt(br.readLine()) % 42);
         }
 
-        in.close();
-        System.out.print(h.size());
+        System.out.println(h.size());
     }
 }
