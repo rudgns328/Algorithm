@@ -1,4 +1,4 @@
-package 백준.자바.수학.킹_퀸_룩_비숍_나이트_폰;
+package 백준.자바.수학.킹_퀸_룩_비숍_나이트_폰_3003;
 
 import java.io.BufferedReader;
 import java.io.IOException;
