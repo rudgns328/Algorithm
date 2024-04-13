@@ -1,4 +1,4 @@
-package 백준.자바.문자열.그룹_단어_체커;
+package 백준.자바.문자열.그룹_단어_체커_1316;
 
 import java.util.Scanner;
 
