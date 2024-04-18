@@ -1,28 +1,35 @@
 package 백준.자바.배열.색종이_2563;
 
-import java.io.*;
-import java.util.*;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int total = 0;
-        int n = Integer.parseInt(br.readLine());
-        boolean[][] arr = new boolean[101][101];
-        for (int i = 0; i < n; i++) {
+        int N = Integer.parseInt(br.readLine());
+        boolean[][] arr = new boolean[100][100];
+        int X = 0;
+        int Y = 0;
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
-            for (int j = x; j < x+10; j++) {
-                for (int k = y; k < y+10; k++) {
-                    if (!arr[j][k]) {
+            X = Integer.parseInt(st.nextToken());
+            Y = Integer.parseInt(st.nextToken());
+
+            for (int j = X; j < X + 10; j++) {
+                for (int k = Y; k < Y + 10; k++) {
+                    if (arr[j][k] == false) {
                         arr[j][k] = true;
-                        total++;
+                        count++;
                     }
                 }
             }
         }
-        System.out.print(total);
+        System.out.println(count);
     }
 }
 
