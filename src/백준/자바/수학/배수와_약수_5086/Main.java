@@ -3,29 +3,25 @@ package 백준.자바.수학.배수와_약수_5086;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        Scanner in = new Scanner(System.in);
+        while (true) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
 
-        while(true) {
+            if (A == 0 && B == 0) {
+                break;
+            }
 
-            int first = in.nextInt();
-            int second = in.nextInt();
-
-            if(first == 0 && second == 0) break;
-
-            if(second % first == 0) {
+            if (B % A == 0) {
                 System.out.println("factor");
-            }
-            else if(first % second == 0) {
+            } else if (A % B == 0) {
                 System.out.println("multiple");
-            }
-            else {
+            } else if (B % A != 0 && A % B != 0) {
                 System.out.println("neither");
             }
         }
-
     }
-
 }
+
