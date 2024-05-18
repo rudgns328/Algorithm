@@ -1,24 +1,17 @@
 package 백준.자바.시간복잡도.알고리즘_수업_알고리즘의_수행_시간_4_24265;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(br.readLine());
+        long n = Long.parseLong(br.readLine());
+        br.close();
 
-        int count = 0;
-
-        for(int i = 1; i <= n-1; i++){
-            for(int j = i+1;  j <= n; j++){
-                count++;
-            }
-        }
-
-        System.out.println(count);
-
+        bw.write(n * (n - 1) / 2 + "\n" + 2);
+        bw.flush();
+        bw.close();
     }
 }
