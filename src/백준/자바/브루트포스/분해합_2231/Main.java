@@ -1,34 +1,34 @@
 package 백준.자바.브루트포스.분해합_2231;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        Scanner in = new Scanner(System.in);
+        int N = Integer.parseInt(br.readLine());
+        br.close();
 
-        int N = in.nextInt();
+        int M = 0;
 
-        int result = 0;
-
-
-        for(int i = 0; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             int number = i;
-            int sum = 0;	// 각 자릿수 합 변수
+            int res = 0;
 
-            while(number != 0) {
-                sum += number % 10;	// 각 자릿수 더하기
+            while (number > 0) {
+                res += number % 10;
                 number /= 10;
             }
 
-            // i 값과 각 자릿수 누적합이 같을 경우 (생성자를 찾았을 경우)
-            if(sum + i == N) {
-                result = i;
+            if (res + i == N) {
+                M = i;
                 break;
             }
-
         }
 
-        System.out.println(result);
+        bw.write(M + "\n");
+        bw.flush();
+        bw.close();
     }
 }
