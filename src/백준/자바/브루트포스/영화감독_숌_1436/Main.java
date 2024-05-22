@@ -11,9 +11,10 @@ public class Main {
         int num = 666;
         int count = 1;
 
-        while(count != N) {
+        while (count != N) {
             num++;
-            if(String.valueOf(num).contains("666")) {
+
+            if (String.valueOf(num).contains("666")) {
                 count++;
             }
         }
