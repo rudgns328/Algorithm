@@ -1,4 +1,4 @@
-package 프로그래머스.Lv_1.자릿수_더하기;
+package 프로그래머스.자바.Lv_1.자릿수_더하기;
 
 import java.lang.*;
 
