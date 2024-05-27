@@ -1,4 +1,4 @@
-package 프로그래머스.Lv_1.약수의_합;
+package 프로그래머스.자바.Lv_1.약수의_합;
 
 class Solution {
     public int solution(int n) {
