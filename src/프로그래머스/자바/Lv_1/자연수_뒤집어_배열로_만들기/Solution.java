@@ -1,4 +1,4 @@
-package 프로그래머스.Lv_1.자연수_뒤집어_배열로_만들기;
+package 프로그래머스.자바.Lv_1.자연수_뒤집어_배열로_만들기;
 
 class Solution {
     public int[] solution(long n) {
