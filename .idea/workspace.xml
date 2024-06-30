@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="">
+    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="merge conflict 해결">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -37,8 +51,78 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.네_번째_점_3009.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.대지_9063.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.삼각형_외우기_10101.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.삼각형과_세_변_5073.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.세_막대_14215.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.수학은_체육과목_입니다_15894.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.기하학.직사각형에서_탈출_1085.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.백준.자바.문서_검색_1543.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.그대로_출력하기_11718.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.다이얼_5622.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.단어의_개수_1152.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.대소문자_바꾸기_2744.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.상수_2908.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.크로아티아_알파벳_2941.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.문자열.팰린드롬인지_확인하기_10988.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.반복문.A더하기B_3_10950.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.반복문.A더하기B빼기3_10950.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.반복문.A더하기B빼기8_11022.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.반복문.구구단_2739.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.반복문.별_찍기_7_2444.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.공_넣기_10810.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.과제_안_내신_분_5597.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.나머지_3052.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.두_수의_합_3273.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.바구니_뒤집기_10811.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.색종이_2563.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.성_지키기_1236.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.세로읽기_10798.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.수_정렬하기3_10989.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.줄세우기_10431.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.최댓값_2566.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.평균_1546.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.배열.행렬_덧셈_2738.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.브루트포스.분해합_2231.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.브루트포스.블랙잭_2798.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.브루트포스.설탕_배달_2839.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.브루트포스.수학은_비대면강의입니다_19532.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.백준.자바.소금_폭탄_13223.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.너의_평점은_25206.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.달팽이는_올라가고_싶다_2869.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.배수와_약수_5086.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.벌집_2292.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.분수찾기_1193.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.빠른A더하기B_15552.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.세탁소_사장_동혁_2720.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.소수_2581.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.소수_찾기_1978.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.소인수분해_11653.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.약수_구하기_2501.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.약수들의_합_9506.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.중앙_이동_알고리즘_2903.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.진법_변환_2745.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.진법_변환_2_11005.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.수학.킹_퀸_룩_비숍_나이트_폰.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.시간복잡도.개미_10158.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.시간복잡도.알고리즘_수업_알고리즘의_수행_시간_4_24265.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.시간복잡도.알고리즘_수업_알고리즘의_수행_시간_5_24266.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.시간복잡도.알고리즘_수업_알고리즘의_수행_시간_6_24267.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.단어_정렬_1181.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.대표값2_2587.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.소트인사이드_1427.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.수_정렬하기_2750.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.수_정렬하기_2_2751.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.좌표_정렬하기_11650.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.좌표_정렬하기_2_11651.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.정렬.커트라인_25305.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.조건문.사분면_고르기_14681.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.조건문.알람_시계_2884.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.조건문.오븐_시계_2525.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.조건문.윤년_2753.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.백준.자바.조건문.주사위_세개_2480.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -49,17 +133,20 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.백준.자바.소금_폭탄_13223.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <output_file path="$PROJECT_DIR$/src/output.txt" is_save="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.자바.Lv_1.문자열_다루기_기본.Solution" />
       <module name="algorithm" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/input.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="프로그래머스.자바.Lv_1.문자열_다루기_기본.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,16 +180,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="백준.자바.배열.바구니_뒤집기_10811.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.자바.배열.바구니_뒤집기_10811.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="백준.자바.배열.바구니_뒤집기_10811.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="백준.자바.기하학.직사각형에서_탈출_1085.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.자바.기하학.직사각형에서_탈출_1085.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="백준.자바.기하학.직사각형에서_탈출_1085.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.백준.자바.기하학.직사각형에서_탈출_1085.Main" />
+      <item itemvalue="Application.백준.자바.배열.바구니_뒤집기_10811.Main" />
       <item itemvalue="Application.백준.자바.소금_폭탄_13223.Main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.백준.자바.문서_검색_1543.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.백준.자바.기하학.직사각형에서_탈출_1085.Main" />
+        <item itemvalue="Application.백준.자바.배열.바구니_뒤집기_10811.Main" />
         <item itemvalue="Application.백준.자바.소금_폭탄_13223.Main" />
         <item itemvalue="Application.백준.자바.문서_검색_1543.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +245,117 @@
       <workItem from="1709970137206" duration="1133000" />
       <workItem from="1710081962347" duration="1629000" />
       <workItem from="1710125289945" duration="758000" />
+      <workItem from="1710161396151" duration="2479000" />
+      <workItem from="1710213532350" duration="418000" />
+      <workItem from="1710213954502" duration="14000" />
+      <workItem from="1710213972558" duration="7979000" />
+      <workItem from="1710341183910" duration="347000" />
+      <workItem from="1710397386333" duration="10841000" />
+      <workItem from="1710495410868" duration="759000" />
+      <workItem from="1710729769776" duration="1987000" />
+      <workItem from="1710738878150" duration="2793000" />
+      <workItem from="1710772885898" duration="1532000" />
+      <workItem from="1710831391796" duration="1736000" />
+      <workItem from="1710850170037" duration="6561000" />
+      <workItem from="1710923189365" duration="2524000" />
+      <workItem from="1711026894450" duration="7705000" />
+      <workItem from="1711091087213" duration="7793000" />
+      <workItem from="1711118337680" duration="8000" />
+      <workItem from="1711180198862" duration="11943000" />
+      <workItem from="1711284824525" duration="1378000" />
+      <workItem from="1711352342090" duration="1764000" />
+      <workItem from="1711367346180" duration="1043000" />
+      <workItem from="1711465930198" duration="4000" />
+      <workItem from="1711721077408" duration="1211000" />
+      <workItem from="1711809766820" duration="1539000" />
+      <workItem from="1711878857692" duration="2220000" />
+      <workItem from="1711895991006" duration="1515000" />
+      <workItem from="1711970658707" duration="5000" />
+      <workItem from="1711970668577" duration="61000" />
+      <workItem from="1712242511843" duration="880000" />
+      <workItem from="1712328242511" duration="719000" />
+      <workItem from="1712413896961" duration="313000" />
+      <workItem from="1712500552388" duration="600000" />
+      <workItem from="1712554059048" duration="928000" />
+      <workItem from="1712578968484" duration="2427000" />
+      <workItem from="1712639427030" duration="1309000" />
+      <workItem from="1712760424665" duration="857000" />
+      <workItem from="1712811316302" duration="16910000" />
+      <workItem from="1712907198615" duration="10276000" />
+      <workItem from="1713020110416" duration="285000" />
+      <workItem from="1713104886434" duration="285000" />
+      <workItem from="1713168915885" duration="6944000" />
+      <workItem from="1713365209665" duration="2194000" />
+      <workItem from="1713419555166" duration="3850000" />
+      <workItem from="1713430735049" duration="1515000" />
+      <workItem from="1713435655052" duration="9635000" />
+      <workItem from="1713454261557" duration="980000" />
+      <workItem from="1713501291193" duration="7912000" />
+      <workItem from="1713543830120" duration="216000" />
+      <workItem from="1713711330562" duration="2461000" />
+      <workItem from="1713788462338" duration="9252000" />
+      <workItem from="1713810661148" duration="2448000" />
+      <workItem from="1713836386215" duration="1260000" />
+      <workItem from="1713858657089" duration="277000" />
+      <workItem from="1713969213622" duration="901000" />
+      <workItem from="1714056662677" duration="358000" />
+      <workItem from="1714061164842" duration="1946000" />
+      <workItem from="1714137515413" duration="170000" />
+      <workItem from="1714202860722" duration="260000" />
+      <workItem from="1714314843967" duration="446000" />
+      <workItem from="1714324979151" duration="223000" />
+      <workItem from="1714575067136" duration="208000" />
+      <workItem from="1714746436101" duration="272000" />
+      <workItem from="1714821144930" duration="191000" />
+      <workItem from="1714920606896" duration="709000" />
+      <workItem from="1715254858682" duration="204000" />
+      <workItem from="1715438594913" duration="206000" />
+      <workItem from="1715525092593" duration="256000" />
+      <workItem from="1715576638072" duration="3677000" />
+      <workItem from="1715594893927" duration="6467000" />
+      <workItem from="1715775542566" duration="1570000" />
+      <workItem from="1715871096557" duration="88000" />
+      <workItem from="1715942111788" duration="2243000" />
+      <workItem from="1716027803035" duration="3987000" />
+      <workItem from="1716130296455" duration="144000" />
+      <workItem from="1716190331359" duration="610000" />
+      <workItem from="1716207155933" duration="7898000" />
+      <workItem from="1716301928620" duration="91000" />
+      <workItem from="1716365033470" duration="3520000" />
+      <workItem from="1716378343674" duration="3774000" />
+      <workItem from="1716479503667" duration="4292000" />
+      <workItem from="1716535359888" duration="5284000" />
+      <workItem from="1716544774386" duration="4121000" />
+      <workItem from="1716646494490" duration="290000" />
+      <workItem from="1716647827818" duration="1988000" />
+      <workItem from="1716705178195" duration="62000" />
+      <workItem from="1716779063995" duration="1774000" />
+      <workItem from="1716813080605" duration="2416000" />
+      <workItem from="1716907882254" duration="282000" />
+      <workItem from="1716971840541" duration="2436000" />
+      <workItem from="1717080738300" duration="325000" />
+      <workItem from="1717253315594" duration="374000" />
+      <workItem from="1717327541306" duration="153000" />
+      <workItem from="1717398682205" duration="262000" />
+      <workItem from="1717424362280" duration="788000" />
+      <workItem from="1717473723412" duration="6000" />
+      <workItem from="1717496663110" duration="239000" />
+      <workItem from="1717770828374" duration="254000" />
+      <workItem from="1717857872262" duration="317000" />
+      <workItem from="1717942084650" duration="145000" />
+      <workItem from="1717944944674" duration="6000" />
+      <workItem from="1718110357823" duration="361000" />
+      <workItem from="1718290394552" duration="156000" />
+      <workItem from="1718369640559" duration="1254000" />
+      <workItem from="1718523679932" duration="353000" />
+      <workItem from="1718698272252" duration="1245000" />
+      <workItem from="1718719494480" duration="2080000" />
+      <workItem from="1718808694945" duration="793000" />
+      <workItem from="1719151529108" duration="221000" />
+      <workItem from="1719208847537" duration="213000" />
+      <workItem from="1719237994305" duration="163000" />
+      <workItem from="1719321147435" duration="157000" />
+      <workItem from="1719375578638" duration="6000" />
     </task>
     <servers />
   </component>
@@ -140,6 +368,21 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="algorithm/main" />
@@ -165,7 +408,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="algorithm/main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -176,5 +419,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge conflict 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge conflict 해결" />
   </component>
 </project>
