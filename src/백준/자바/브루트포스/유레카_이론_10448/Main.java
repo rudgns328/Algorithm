@@ -1,36 +1,36 @@
 package 백준.자바.브루트포스.유레카_이론_10448;
 
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static boolean[] isEurekaNumber = new boolean[1001];
 
-        int T = Integer.parseInt(br.readLine());
-        int[] ans = new int[45];
-        for (int i = 1; i < 45; i++) {
-            ans[i] = i * (i + 1) / 2;
+    public static void preprocess() {
+        int[] triangleNumbers = new int[50];
+        int triangleNumberCount = 0;
+        for (int i = 1; ; i++) {
+            int triangleNumber = i * (i + 1) / 2;
+            if (triangleNumber > 1000) break;
+            triangleNumbers[triangleNumberCount++] = triangleNumber;
         }
 
-        for (int i = 0; i < T; i++) {
-            int K = Integer.parseInt(br.readLine());
-            int result = eureka(K, ans);
-            System.out.println(result);
-        }
+        for (int i = 0; i < triangleNumberCount; i++)
+            for (int j = i; j < triangleNumberCount; j++)
+                for (int k = j; k < triangleNumberCount; k++) {
+                    int eurekaNumber = triangleNumbers[i] + triangleNumbers[j] + triangleNumbers[k];
+                    if (eurekaNumber > 1000) break;
+                    isEurekaNumber[eurekaNumber] = true;
+                }
     }
 
-    static int eureka(int T, int[] ans) {
-        for (int i = 1; i < 45; i++) {
-            for (int j = 1; j < 45; j++) {
-                for (int k = 1; k < 45; k++) {
-                    int sum = ans[i] + ans[j] + ans[k];
-                    if (sum == T) return 1;
-                }
-            }
+    public static void main (String[] args) {
+        preprocess();
+
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        while (T-- > 0) {
+            int K = sc.nextInt();
+            System.out.println(isEurekaNumber[K] ? "1" : "0");
         }
-        return 0;
     }
 }
