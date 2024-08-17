@@ -34,6 +34,7 @@
 * 2024.04.22
   * `SILVER IV`
 * 2024.05.22
+  * `SILVER III`
 * 2024.08.13
   * `SILVER II`
 
