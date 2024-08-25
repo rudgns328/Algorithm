@@ -37,8 +37,6 @@
   * `SILVER III`
 * 2024.08.08
   * `SILVER II`
-* 2024.08.08
-  * `SILVER I`
 
 
 ## 문제 출처
