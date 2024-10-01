@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="merge conflict 해결">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/프로그래머스/자바/Lv_1/문자열_다루기_기본/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/프로그래머스/자바/Lv_1/문자열_다루기_기본/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/자바/구현/별_찍기_5_2442/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/자바/구현/별_찍기_5_2442/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/자바/구현/별_찍기_8_2445/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/자바/구현/별_찍기_8_2445/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/자바/정렬/수_찾기_1920/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/자바/정렬/수_찾기_1920/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="[Solve]-[백준] 나무 자르기 14247" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +35,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rudgns328"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rudgns328/Algorithm.git",
+    "accountId": "d93dd046-d00e-4dcb-b345-5074a673d26f"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -232,7 +238,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -423,7 +430,17 @@
       <workItem from="1725547584352" duration="106000" />
       <workItem from="1725612873347" duration="67000" />
       <workItem from="1725679300824" duration="5000" />
+      <workItem from="1727621289552" duration="251000" />
     </task>
+    <task id="LOCAL-00001" summary="[Solve]-[백준] 나무 자르기 14247">
+      <option name="closed" value="true" />
+      <created>1727621530004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727621530004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,6 +506,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge conflict 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge conflict 해결" />
+    <MESSAGE value="[Solve]-[백준] 나무 자르기 14247" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Solve]-[백준] 나무 자르기 14247" />
   </component>
 </project>
