@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="[Solve]-[백준] 2+1 세일 11508">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2de140f8-2df5-4705-8e25-6cde600d0684" name="Changes" comment="[Solve]-[백준] 동전 0 11047" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,8 +219,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.백준.자바.그래프.DFS와_BFS_1260.Main" />
       <item itemvalue="Application.백준.자바.브루트포스.유레카_이론_10448.Main" />
       <item itemvalue="Application.main (1)" />
@@ -435,6 +433,7 @@
       <workItem from="1727621289552" duration="251000" />
       <workItem from="1727793705140" duration="117000" />
       <workItem from="1727798576785" duration="182000" />
+      <workItem from="1728312544288" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="[Solve]-[백준] 나무 자르기 14247">
       <option name="closed" value="true" />
@@ -452,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727793815493</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Solve]-[백준] 동전 0 11047">
+      <option name="closed" value="true" />
+      <created>1728312609570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728312609570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,6 +527,7 @@
     <MESSAGE value="merge conflict 해결" />
     <MESSAGE value="[Solve]-[백준] 나무 자르기 14247" />
     <MESSAGE value="[Solve]-[백준] 2+1 세일 11508" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Solve]-[백준] 2+1 세일 11508" />
+    <MESSAGE value="[Solve]-[백준] 동전 0 11047" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Solve]-[백준] 동전 0 11047" />
   </component>
 </project>
